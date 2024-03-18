@@ -39,6 +39,11 @@ education:
     - course: Bachelor of Arts, Computer Science
       institution: University of California, Santa Cruz
       year: 2022 - Current
+
+# Skills
+# For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
+skills:
+
   
 
 # Social/Academic Networking
