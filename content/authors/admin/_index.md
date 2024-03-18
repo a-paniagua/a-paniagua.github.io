@@ -42,6 +42,8 @@ education:
 
 # Skills
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
+skills:
+  
 
 # Social/Academic Networking
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
@@ -57,9 +59,9 @@ social:
     label: Follow me on Twitter
     display:
       header: true
-  - #icon: graduation-cap # Alternatively, use `google-scholar` icon from `ai` icon pack
-    #icon_pack: fas
-    #link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
+  - icon: graduation-cap # Alternatively, use `google-scholar` icon from `ai` icon pack
+    icon_pack: fas
+    link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
   - icon: github
     icon_pack: fab
     link: https://github.com/a-paniagua
