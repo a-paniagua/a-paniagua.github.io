@@ -8,7 +8,6 @@ name_pronunciation: ""
 # Full name (for SEO)
 first_name: Andres
 last_name: Paniagua
-
 # Status emoji
 status:
   icon: ☕️
@@ -18,12 +17,10 @@ superuser: true
 
 # Role/position/tagline
 role: Computer Science Undergrad
-
 # Organizations/Affiliations to show in About widget
 organizations:
   - name: UC Santa Cruz
     #url: https://engineering.ucsc.edu/
-
 # Short bio (displayed in user profile at end of posts)
 bio: ""
 

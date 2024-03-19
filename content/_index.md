@@ -31,24 +31,24 @@ sections:
         <div class="mb-3"></div>
         <!--GitHub Button JS-->
         <script async defer src="https://buttons.github.io/buttons.js"></script>
-    design:
-      background:
-        gradient_end: "#1976d2"
-        gradient_start: "#004ba0"
-        text_color_light: true
+
   - block: about.biography
     id: about
     content:
       title: ""
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: admin
+    design:
+      text_color: white
+
+
   #- block: skills
     content:
       title: ''
       text: ""
       # Choose a user to display skills from (a folder name within `content/authors/`)
       username: admin
-    design:
+
       columns: "1"
   - block: experience
     content:
@@ -84,6 +84,9 @@ sections:
           date_end: "2020-12-31"
           description: Taught electronic engineering and researched semiconductor physics.
     design:
+      background:
+        color: 'white'
+        text_color_light: true
       columns: "2"
  # - block: accomplishments
     content:
@@ -126,6 +129,9 @@ sections:
           title: "Object-Oriented Programming in R"
           url: ""
     design:
+      background:
+        color: 'white'
+        text_color_light: false
       columns: "2"
   #- block: collection
     id: posts
@@ -151,6 +157,9 @@ sections:
       # Page order: descending (desc) or ascending (asc) date.
       order: desc
     design:
+      background:
+        color: 'white'
+        text_color_light: false
       # Choose a layout view
       view: compact
       columns: "2"
@@ -198,6 +207,9 @@ sections:
           - publication
         featured_only: true
     design:
+      background:
+        color: 'white'
+        text_color_light: false
       columns: "2"
       view: card
   #- block: collection
@@ -227,6 +239,7 @@ sections:
   #- block: tag_cloud
     content:
       title: Popular Topics
+
     design:
       columns: "2"
   #- block: contact
@@ -235,7 +248,9 @@ sections:
       title: Contact
       subtitle:
       text: |-
-        apaniagua.dev@gmail.com
+       UCSC (default): apaniag1 [at] ucsc [dot] edu
+
+        Personal: apaniag.dev [at] gmail [dot] com
       # Contact (add or remove contact options as necessary)
       email: test@example.org
       phone: 888 888 88 88
@@ -279,5 +294,8 @@ sections:
           # Enable CAPTCHA challenge to reduce spam?
           captcha: false
     design:
+      background:
+        color: 'white'
+        text_color_light: false
       columns: "2"
 ---

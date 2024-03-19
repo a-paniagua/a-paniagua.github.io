@@ -6,8 +6,10 @@
 # Appearance
 
 appearance:
-  theme_default: light
-
+  theme_day: minimal
+  #theme_night: "mr robot"
+  font: forest
+  font_size: L
 # SEO
 
 marketing:
@@ -15,7 +17,7 @@ marketing:
     site_type: Person
     local_business_type: ""
     org_name: ""
-    description: "A highly-customizable Hugo academic resume theme powered by Hugo Blox Builder."
+    description: ""
     twitter: "GetResearchDev"
   analytics:
     google_analytics: ""
@@ -46,7 +48,7 @@ footer:
     license:
       enable: false
       allow_derivatives: false
-      share_alike: flase
+      share_alike: false
       allow_commercial: false
 
 # Localization
